@@ -1,0 +1,10 @@
+streamlit # for the web app
+langchain # for the LLM framework
+langchain_groq # for Groq LLM support
+langchain_community # for community LLM support
+validators==0.28.1 # for URL validation
+youtube_transcript_api # for fetching YouTube transcripts
+unstructured # for document parsing
+pytube # for YouTube video downloading
+pandas           # for handling results/data
+huggingface_hub  # if you switch models later
