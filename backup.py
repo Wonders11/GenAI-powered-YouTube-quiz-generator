@@ -40,7 +40,7 @@ if groq_api_key:
 # Prompt for summarization
 summary_prompt = PromptTemplate(
     input_variables=["text"],
-    template="Provide a concise educational summary of the following content in 500 words:\n\nContent:\n{text}"
+    template="Provide a concise educational summary of the following content in 300 words:\n\nContent:\n{text}"
 )
 
 # Prompt for MCQ generation
